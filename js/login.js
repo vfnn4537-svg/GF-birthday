@@ -4,7 +4,7 @@ $('#login-button').click(function (event) {
 		//修改密码请改此处
     if(userName=="safaa" &&  pwd=="001122"){
 			event.preventDefault();
-			$('form').fadeOut(500);/
+			$('form').fadeOut(500);
 			$('.wrapper').addClass('form-success');
 			requestFullScreen();
 			setTimeout(function(){
